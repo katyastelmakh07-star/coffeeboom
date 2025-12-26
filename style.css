@@ -27,6 +27,13 @@ nav a {
 main {
     padding: 20px;
 }
+.main-image {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+}
 
 section {
     background: white;
@@ -49,3 +56,4 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
