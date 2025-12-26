@@ -1,0 +1,52 @@
+<!-- Сайт розроблено студенткою Стельмах Катериною, група ФТМ 2-21 -->
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Калькулятор франшизи</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+    <h1>Калькулятор стартових витрат</h1>
+</header>
+
+<nav>
+    <a href="index.html">Головна</a>
+    <a href="franchise.html">Про франшизу</a>
+    <a href="calculator.html">Калькулятор</a>
+    <a href="contacts.html">Контакти</a>
+</nav>
+
+<main>
+    <section class="calculator">
+        <label>Тип франшизи:</label>
+        <select id="type">
+            <option value="mini">Mini</option>
+            <option value="standard">Standard</option>
+            <option value="premium">Premium</option>
+        </select>
+
+        <label>Місто:</label>
+        <select id="city">
+            <option value="kyiv">Київ</option>
+            <option value="lviv">Львів</option>
+            <option value="kharkiv">Харків</option>
+            <option value="odesa">Одеса</option>
+            <option value="dnipro">Дніпро</option>
+        </select>
+
+        <button onclick="calculate()">Розрахувати</button>
+
+        <h3 id="result"></h3>
+    </section>
+</main>
+
+<footer>
+    <p>© Стельмах Катерина, ФТМ-2-21</p>
+</footer>
+
+</body>
+</html>
